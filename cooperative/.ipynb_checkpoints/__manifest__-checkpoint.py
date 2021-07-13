@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo Academy',
+    'name': 'Cooperative',
     
-    'summary':"""Academy app to manage Training""",
+    'summary':"""Cooperative management software""",
     
     'description': """
-        Academy Módule to manage Training:
-        - Courses
-        - Sessions
-        - Attendees
+        Cooperative management software:
+        - Persons
+        - Sales
+        - Activities
     """,
     
     'author': 'Daniel Clavería',
