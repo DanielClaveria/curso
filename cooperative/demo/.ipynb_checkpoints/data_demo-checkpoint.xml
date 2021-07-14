@@ -1,0 +1,29 @@
+<?xml version="1" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record model='cooperative.task' id='task_0001'>
+            <field name='name'>Reunión Semanal</field>
+            <field name='description'>Reunión de coordinación semanal</field>
+            <field name='start'>2021-07-14 09:00:00</field>
+            <field name='end'>2021-07-14 10:00:00</field>
+            <field name='repeat'>True</field>
+            <field name='frecuence'>W</field>
+        </record>
+        <record model='cooperative.task' id='task_0002'>
+            <field name='name'>Reunión Diaria</field>
+            <field name='description'>Daily Scrum</field>
+            <field name='start'>2021-07-14 10:00:00</field>
+            <field name='end'>2021-07-14 10:15:00</field>
+            <field name='repeat'>True</field>
+            <field name='frecuence'>D</field>
+        </record>
+        <record model='cooperative.task' id='task_0003'>
+            <field name='name'>Reunión Mensual</field>
+            <field name='description'>Coordinación Mensual</field>
+            <field name='start'>2021-07-14 10:00:00</field>
+            <field name='end'>2021-07-14 12:00:00</field>
+            <field name='repeat'>True</field>
+            <field name='frecuence'>M</field>
+        </record>
+    </data>
+</odoo>

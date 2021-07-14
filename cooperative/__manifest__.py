@@ -27,6 +27,7 @@
     ],
     
     'demo':[
+        'demo/data_demo.xml',
         
     ],
 }
