@@ -13,3 +13,4 @@ class Task(models.Model):
     repeat = fields.Boolean(string='Repeat?')
     frecuence = fields.Selection([('D', 'Daily'), ('W', 'Weekly'), ('M', 'Monthly'),],'Frecuence')
     
+    
