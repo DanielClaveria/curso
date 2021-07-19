@@ -3,7 +3,7 @@
 {
     'name': 'Cooperative',
     
-    'summary':"""Cooperative management software""",
+    'summary': """Cooperative management software""",
     
     'description': """
         Cooperative management software:
@@ -23,6 +23,7 @@
     'depends': ['base'],
     
     'data': [
+        'views/cooperative_menuitem.xml'
         
     ],
     

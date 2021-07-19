@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.action.act_windows" 
+                id="tasks_list_action">
+            <field name="name">Tasks</field>
+            <field name="res_model">cooperative.task</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first task
+                </p>
+            </field>
+        </record>
+        
+        <menuitem id="menu_cooperative"
+                  name="Cooverative"
+                  sequence="1"/>
+        
+        <menuitem id="menu_cooperative_sub" 
+                  name="Odoo Cooperative" 
+                  parent="menu_cooperative"
+                  sequence="2"/>
+        
+        <menuitem id="menu_cooperative_tasks"
+                  name="Tasks"
+                  parent="menu_cooperative_sub"
+                  sequence="3"
+                  action="tasks_list_action"
+    </data>
+</odoo>
